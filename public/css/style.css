@@ -1,4 +1,23 @@
-body,
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: inherit;
+}
+
+body::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 6px rgba(22, 25, 202, 0.3); */
+  box-shadow: inset 0 0 5px grey;
+  /* border-radius: 10px; */
+}
+
+body::-webkit-scrollbar-thumb {
+  /* background-color: #2e3191;
+  outline: 1px solid #2e3191; */
+  background: #2e3191;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #595dd3;
+}
 html {
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
@@ -11,10 +30,10 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Century Gothic", sans-serif;
 }
 h2 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
@@ -76,12 +95,12 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: #2e3191;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: "Century Gothic", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
@@ -90,7 +109,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #fff;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -104,7 +123,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #e20909 0%, #f7f7f7 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -206,17 +225,18 @@ a:focus,
 /* Header Section */
 .intro {
   display: table;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
+  /* background: url(../img/header.jpeg) center center no-repeat; */
+  /* background-color: #e5e5e5; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  /* background: rgba(0, 0, 0, 0.2); */
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -244,6 +264,24 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+.bg-img-1 {
+  background-image: url(../img/header.jpeg);
+  height: 100vh;
+  width: 100vw;
+}
+.bg-img-2 {
+  background-image: url(../img/teambuilding.jpg);
+}
+.bg-img-3 {
+  background-image: url(../img/teambuilding-2.jpg);
+}
+.carousel-image {
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -263,6 +301,8 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
+  background: url(../img/fond_guerrilla_icon.png) center center no-repeat;
+  background-size: cover;
 }
 #about h3 {
   font-size: 22px;
@@ -304,8 +344,37 @@ header .intro-text {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
 #about p {
-  line-height: 24px;
-  margin: 30px 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: #2e3191;
+  line-height: 30px;
+  margin: 30px 28px;
+}
+.video-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+iframe:not([about="video"]) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+}
+@media (min-aspect-ratio: 16/9) {
+  .video-container iframe {
+    /* height = 100 * (9 / 16) = 56.25 */
+    height: 56.25vw;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .video-container iframe {
+    /* width = 100 / (9 / 16) = 177.777777 */
+    width: 177.78vh;
+  }
 }
 /* Services Section */
 #services {
@@ -354,6 +423,7 @@ header .intro-text {
 #portfolio {
   padding: 100px 0;
 }
+
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
@@ -462,6 +532,9 @@ header .intro-text {
   padding: 100px 0 60px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
+  /* google map config */
+  position: relative;
+  z-index: 1;
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -582,6 +655,14 @@ label {
 #contact .social i.fa:hover {
   color: #608dfd;
   background: #fff;
+}
+.googlemaps {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
 }
 /* Footer Section*/
 #footer {

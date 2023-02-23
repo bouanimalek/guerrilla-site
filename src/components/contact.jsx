@@ -1,6 +1,7 @@
+import React from "react";
 import { useState } from "react";
 import emailjs from "emailjs-com";
-import React from "react";
+import Map from "./Map";
 
 const initialState = {
   name: "",
@@ -35,7 +36,10 @@ export const Contact = (props) => {
     <div>
       <div id="contact">
         <div className="container">
-          <div className="col-md-8">
+          {/* <div className="googlemaps">
+            <Map />
+          </div> */}
+          <div className="col-md-4">
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
@@ -53,6 +57,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
+                        style={{ borderRadius: 10 }}
                         placeholder="Name"
                         required
                         onChange={handleChange}
@@ -67,6 +72,7 @@ export const Contact = (props) => {
                         id="email"
                         name="email"
                         className="form-control"
+                        style={{ borderRadius: 10 }}
                         placeholder="Email"
                         required
                         onChange={handleChange}
@@ -80,6 +86,7 @@ export const Contact = (props) => {
                     name="message"
                     id="message"
                     className="form-control"
+                    style={{ borderRadius: 10 }}
                     rows="4"
                     placeholder="Message"
                     required
@@ -120,6 +127,9 @@ export const Contact = (props) => {
                 {props.data ? props.data.email : "loading"}
               </p>
             </div>
+          </div>
+          <div className="col-md-3">
+            <Map />
           </div>
           <div className="col-md-12">
             <div className="row">

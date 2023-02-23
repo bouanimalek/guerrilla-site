@@ -1,5 +1,6 @@
 import { Image } from "./image";
 import React from "react";
+import MyGallery from "./MyGallery";
 
 export const Gallery = (props) => {
   return (
@@ -12,7 +13,7 @@ export const Gallery = (props) => {
             dapibus leonec.
           </p>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="portfolio-items">
             {props.data
               ? props.data.map((d, i) => (
@@ -29,7 +30,44 @@ export const Gallery = (props) => {
                 ))
               : "Loading..."}
           </div>
-        </div>
+        </div> */}
+        <MyGallery
+          galleryID="my-test-gallery"
+          images={[
+            {
+              largeURL:
+                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg",
+              thumbnailURL:
+                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg",
+              width: 1875,
+              height: 2500,
+            },
+            {
+              largeURL:
+                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg",
+              thumbnailURL:
+                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg",
+              width: 1669,
+              height: 2500,
+            },
+            {
+              largeURL:
+                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
+              thumbnailURL:
+                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
+              width: 2500,
+              height: 1666,
+            },
+            {
+              largeURL:
+                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg",
+              thumbnailURL:
+                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg",
+              width: 1875,
+              height: 2500,
+            },
+          ]}
+        />
       </div>
     </div>
   );

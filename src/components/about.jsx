@@ -5,35 +5,33 @@ export const About = (props) => {
     <div id="about">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+          <div className="col-xs-12 col-md-6 offset-md-3">
+            <div className="about-text">
+              <h2>A propos</h2>
+              <p>{props.data ? props.data.paragraph : "loading..."}</p>
+            </div>
           </div>
           <div className="col-xs-12 col-md-6">
-            <div className="about-text">
-              <h2>About Us</h2>
-              <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Why Choose Us?</h3>
-              <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
-              </div>
+            {/* {" "}
+            <img src="img/about.jpg" className="img-responsive" alt="" />{" "} */}
+            <div
+              style={{
+                borderRadius: 10,
+                overflow: "hidden",
+                zIndex: 1,
+                border: "1rem solid#2e3191",
+              }}
+            >
+              <iframe
+                about="video"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/0wVUFtBTBxY?&autoplay=1&loop=1&showinfo=0&mute=1&modestbranding=1&frameborder=0&controls=0&playsinline=1&playlist=0wVUFtBTBxY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
         </div>
