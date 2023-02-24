@@ -129,7 +129,17 @@ export const Contact = (props) => {
             </div>
           </div>
           <div className="col-md-3">
-            <Map />
+            {/* <Map /> */}
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d671.1460549935831!2d10.185362217905586!3d36.853810901668496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd35a1e5d73c27%3A0xa69de8df8d26264c!2sGu%C3%A9rrilla%20com!5e0!3m2!1sfr!2stn!4v1677226075315!5m2!1sfr!2stn"
+              height={400}
+              width={400}
+              className="map"
+              about="video"
+              allowfullscreen=""
+              loading="lazy"
+              title="map"
+            ></iframe>
           </div>
           <div className="col-md-12">
             <div className="row">

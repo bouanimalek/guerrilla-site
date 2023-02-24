@@ -4,7 +4,7 @@ export const Header = (props) => {
   return (
     <header id="header">
       <div className="intro">
-        <div className="overlay">
+        <div>
           <div
             className="container"
             style={{ height: "100vh", width: "100vw" }}
@@ -14,7 +14,6 @@ export const Header = (props) => {
               <div
                 id="carousel-example-generic"
                 className="carousel slide"
-                style={{ width: "100vw" }}
                 data-ride="carousel"
               >
                 <ol className="carousel-indicators">
@@ -60,13 +59,21 @@ export const Header = (props) => {
                   role="button"
                   data-slide="prev"
                 >
-                  {/* <span
-                    className="glyphicon glyphicon-chevron-left"
-                    aria-hidden="true"
-                  >
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="100"
+                      height="800"
+                      viewBox="0 0 712 712"
+                    >
+                      <path
+                        fill="#fff"
+                        d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"
+                      />
+                    </svg>
                   </span>
 
-                  <span className="sr-only">Previous</span> */}
+                  <span className="sr-only">Previous</span>
                 </a>
                 <a
                   className="right carousel-control"
@@ -79,6 +86,17 @@ export const Header = (props) => {
                     aria-hidden="true"
                   ></span>
                   <span class="sr-only">Next</span> */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="100"
+                    height="800"
+                    viewBox="0 0 712 512"
+                  >
+                    <path
+                      fill="#fff"
+                      d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+                    />
+                  </svg>
                 </a>
               </div>
             </div>

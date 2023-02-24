@@ -1,6 +1,7 @@
 import { Image } from "./image";
 import React from "react";
 import MyGallery from "./MyGallery";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Gallery = (props) => {
   return (
@@ -31,7 +32,7 @@ export const Gallery = (props) => {
               : "Loading..."}
           </div>
         </div> */}
-        <MyGallery
+        {/* <MyGallery
           galleryID="my-test-gallery"
           images={[
             {
@@ -67,7 +68,100 @@ export const Gallery = (props) => {
               height: 2500,
             },
           ]}
-        />
+        /> */}
+        <div className="row">
+          <div className="col-md-4">
+            <a
+              href="/img/header.jpeg"
+              className="ubea-card-item image-popup"
+              title="Microsoft Event (Windows 11)"
+            >
+              <figure>
+                <img
+                  src="/img/header.jpeg"
+                  alt="img"
+                  className="img-responsive"
+                />
+              </figure>
+            </a>
+          </div>
+          <div className="col-md-4">
+            <a
+              href="/img/header.jpeg"
+              className="ubea-card-item image-popup"
+              title="Microsoft Event (Windows 11)"
+            >
+              <figure>
+                <img
+                  src="/img/header.jpeg"
+                  alt="img"
+                  className="img-responsive"
+                />
+              </figure>
+            </a>
+          </div>
+
+          <div className="col-md-4">
+            <a
+              href="/img/header.jpeg"
+              className="ubea-card-item image-popup"
+              title="Microsoft Event (Windows 11)"
+            >
+              <figure>
+                <img
+                  src="/img/header.jpeg"
+                  alt="img"
+                  className="img-responsive"
+                />
+              </figure>
+            </a>
+          </div>
+          <div className="col-md-4">
+            <a
+              href="/img/header.jpeg"
+              className="ubea-card-item image-popup"
+              title="Microsoft Event (Windows 11)"
+            >
+              <figure>
+                <img
+                  src="/img/header.jpeg"
+                  alt="img"
+                  className="img-responsive"
+                />
+              </figure>
+            </a>
+          </div>
+          <div className="col-md-4">
+            <a
+              href="/img/header.jpeg"
+              className="ubea-card-item image-popup"
+              title="Microsoft Event (Windows 11)"
+            >
+              <figure>
+                <img
+                  src="/img/header.jpeg"
+                  alt="img"
+                  className="img-responsive"
+                />
+              </figure>
+            </a>
+          </div>
+          <div className="col-md-4">
+            <a
+              href="/img/header.jpeg"
+              className="ubea-card-item image-popup"
+              title="Microsoft Event (Windows 11)"
+            >
+              <figure>
+                <img
+                  src="/img/header.jpeg"
+                  alt="img"
+                  className="img-responsive"
+                />
+              </figure>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
