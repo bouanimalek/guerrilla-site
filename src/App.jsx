@@ -12,6 +12,11 @@ import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import Carousel from "./components/Carousel";
+import Modal2 from "./components/Modal2";
+import { ToastContainer } from "react-toastify";
+import { Procedures } from "./components/Procedures";
+import { GalleryUpdated } from "./components/GalleryUpdated";
+import { Partners } from "./components/Partners";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -31,10 +36,16 @@ const App = () => {
       {/* <Features data={landingPageData.Features} /> */}
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
+      {/* <Gallery data={landingPageData.Gallery} /> */}
+      <GalleryUpdated data={landingPageData.Gallery} />
+
       {/* <Testimonials data={landingPageData.Testimonials} /> */}
-      <Team data={landingPageData.Team} />
+      {/* <Team data={landingPageData.Team} /> */}
+      <Procedures data={landingPageData.Procedures} />
+      <Partners data={landingPageData.Partners} />
+      <ToastContainer />
       <Contact data={landingPageData.Contact} />
+      {/* <Modal2 /> */}
     </div>
   );
 };

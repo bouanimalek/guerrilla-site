@@ -1,7 +1,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
   <link
     rel="apple-touch-icon"
@@ -12,9 +19,9 @@
     rel="apple-touch-icon"
     sizes="114x114"
     href="img/apple-touch-icon-114x114.png"
-  />
+  /> -->
 
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
   <!-- Animate.css -->
   <link rel="stylesheet" href="./css/gallery-css/animate.css" />
   <!-- Icomoon Icon Fonts-->
@@ -24,13 +31,24 @@
   <!-- Magnific Popup -->
   <link rel="stylesheet" href="./css/gallery-css/magnific-popup.css" />
   <!-- Owl Carousel  -->
-  <link rel="stylesheet" href="./css/gallery-css/owl.carousel.min.css" />
-  <link rel="stylesheet" href="./css/gallery-css/owl.theme.default.min.css" />
+  <!-- <link rel="stylesheet" href="./css/gallery-css/owl.carousel.min.css" /> -->
+  <!-- <link rel="stylesheet" href="./css/gallery-css/owl.theme.default.min.css" /> -->
   <!-- Flexslider -->
   <link rel="stylesheet" href="./css/gallery-css/flexslider.css" />
   <!-- Modernizr JS -->
   <script src="./js/gallery-js/modernizr-2.6.2.min.js"></script>
-
+  <!-- <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+  /> -->
+  <!-- <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+  /> -->
+  <link
+    rel="stylesheet"
+    href="https://web.archive.org/web/20230112140357/https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+  />
   <link
     href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     rel="stylesheet"
@@ -39,6 +57,11 @@
     rel="stylesheet"
     type="text/css"
     href="fonts/font-awesome/css/font-awesome.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="./fonts/century-gothic/CenturyGothic.ttf"
   />
 
   <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -66,18 +89,33 @@
     href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet"
   />
-  <title>A React Landing Page Template</title>
+  <title>Guerrilla Com</title>
   <meta name="description" content="" />
   <meta name="author" content="@Issaafalkattan" />
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <!--======================================== 
+
+           Preloader
+
+    ========================================-->
+
+  <div class="page-preloader">
+    <div class="spinner">
+      <img src="./img/logo_guerrilla.gif" alt="loader" />
+    </div>
+  </div>
   <div id="root"></div>
-  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <p id="back-top">
+    <a href="#page-top"><i class="fa fa-angle-up"></i></a>
+  </p>
+  <script type="text/javascript" src="./js/jquery.1.11.1.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.js"></script>
+
   <!-- gallery -->
   <!-- jQuery -->
-  <script src="./js/gallery-js/jquery.min.js"></script>
+  <!-- <script src="./js/gallery-js/jquery.min.js"></script> -->
   <!-- jQuery Easing -->
   <script src="./js/gallery-js/jquery.easing.1.3.js"></script>
 
@@ -94,4 +132,15 @@
   <script src="./js/gallery-js/magnific-popup-options.js"></script>
   <!-- Main -->
   <script src="./js/gallery-js/main.js"></script>
+  <!-- <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/react-modal/3.14.3/react-modal.min.js"
+    integrity="sha512-MY2jfK3DBnVzdS2V8MXo5lRtr0mNRroUI9hoLVv2/yL3vrJTam3VzASuKQ96fLEpyYIT4a8o7YgtUs5lPjiLVQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script> -->
+  <script src="https://web.archive.org/web/20230112140357/https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script src="./js/videos/jquery.fancybox.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+  <script src="./js/theme-scripts.js"></script>
 </body>

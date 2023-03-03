@@ -20,81 +20,97 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "firstRow": [
+        {
+          "title": "Microsoft Event (Windows 11)",
+          "largeImage": "/img/header.jpeg",
+          "smallImage": "/img/header.jpeg"
+        },
+        {
+          "title": "Project Title",
+          "largeImage": "/img/portfolio/02-large.jpg",
+          "smallImage": "/img/portfolio/02-small.jpg"
+        },
+        {
+          "title": "Project Title",
+          "largeImage": "/img/portfolio/03-large.jpg",
+          "smallImage": "/img/portfolio/03-small.jpg"
+        },
+        {
+          "title": "Project Title",
+          "largeImage": "/img/portfolio/04-large.jpg",
+          "smallImage": "/img/portfolio/04-small.jpg"
+        },
+        {
+          "title": "Project Title",
+          "largeImage": "/img/portfolio/05-large.jpg",
+          "smallImage": "/img/portfolio/05-small.jpg"
+        },
+        {
+          "title": "Project Title",
+          "largeImage": "/img/portfolio/06-large.jpg",
+          "smallImage": "/img/portfolio/06-small.jpg"
+        },
+        {
+          "title": "Project Title",
+          "largeImage": "/img/portfolio/07-large.jpg",
+          "smallImage": "/img/portfolio/07-small.jpg"
+        },
+        {
+          "title": "Project Title",
+          "largeImage": "/img/portfolio/08-large.jpg",
+          "smallImage": "/img/portfolio/08-small.jpg"
+        },
+        {
+          "title": "Project Title",
+          "largeImage": "/img/portfolio/09-large.jpg",
+          "smallImage": "/img/portfolio/09-small.jpg"
+        }
+      ]
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-users",
+      "iconPath": "/img/icons/team_building.png",
+      "name": "Team Building",
+      "text": "L’agence Guerilla Com peut vous accompagner à planifier et organiser un team building qui vous permet de chouchouter vos collaborateurs...",
+      "paragraph": "Ce format d’actions est de plus en plus en vogue chez les entreprises tous secteurs et tailles confondus. Organiser des team building permet de tisser des liens d’appartenances forts à l’entreprise, renforcer la cohésion d’équipes, aligner les collaborateurs à la stratégie de la direction générale et aussi sortir du cadre du travail pur. A ce niveau, l’agence Guerilla Com peut vous accompagner à planifier et organiser un team building qui vous permet de chouchouter vos collaborateurs tout en atteignant vos objectifs."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-shopping-cart",
+      "iconPath": "/img/icons/animation_gms.png",
+      "name": "Animation GMS",
+      "text": "Guerilla Com est experte dans le domaine. En fonction de vos objectifs, nous vous proposons la stratégie et l’activation appropriée...",
+      "paragraph": "Le « modern trade » ou le canal des Grandes et Moyennes Surface ne cesse de gagner en importance en Tunisie en comparaison avec la trade traditionnel (grossistes, épiciers, superettes...). L'expansion du nombre d'hypermarchés et de supermarchés dans le pays et l'ouverture de nouveaux centres commerciaux est un fait indéniable.  D’ailleurs, rien qu’entre 2010 et 2020, le nombre  de grandes surfaces est passé de 200 à 655. Pour les marques notamment celles dont le produit est de la famille de FMCG, être présents en continu dans cet espace est primordial pour atteindre leur chiffre d’affaire et maintenir leur distribution numérique. Vu la concurrence rude qui existe pour garder sa place dans les rayons et bénéficier des meilleurs emplacements, les marques doivent faire preuve de créativité, innover, faire des actions à impact pour soigner la mémorisation de leur produits au niveau des consommateurs."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-road",
+      "name": "Street Marketing",
+      "iconPath": "/img/icons/street_marketing.png",
+      "text": "En Tunisie, nous avons à notre actif de nombreuses opérations de street marketing. Une expérience de laquelle on a appris comment penser, préparer, organiser...",
+      "paragraph": "Levier de visibilité incontournable pour les marques, le recours au Street Marketing est souvent une des meilleures approches pour toucher un grand nombre de personnes via des activations dans la rue et les lieux publique. Le street marketing s’opère généralement à travers la distribution de flyers échantillons produits ou différentes formes originales d'affichage. En soi, c’est une technique originale et innovante qui allie puissance (nombre de contacts exposés) et impact (image de marque et  mémorisation). Il est vivement recommandé dans  les lancements de produits sur une cible urbaine. En Tunisie, nous avons à notre actif de nombreuses opérations de street marketing. Une expérience de laquelle on a appris comment penser, préparer, organiser et lancer une action de street marketing où l’on garantit l’impact et on évite les mauvaises surprises – les aléas du live comme on dit. Nos clients issus de plusieurs secteurs peuvent témoigner de l’effet magique qu’on eut ces actions sur leur visibilité, mémorisation et chiffre d’affaire."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-star-o",
+      "iconPath": "/img/icons/evenement.png",
+      "name": "Evénementiel",
+      "text": "Notre équipe d'experts en événementiel possède une vaste expérience dans la planification et l'organisation de divers types d'événements...",
+      "paragraph": "Notre équipe d'experts en événementiel possède une vaste expérience dans la planification et l'organisation de divers types d'événements, tels que des conférences, des salons professionnels, des événements de lancement de produits,et bien plus encore. Nous pouvons gérer tous les aspects de la planification de l'événement, de la conception initiale à la mise en place sur place, en passant par la logistique, la coordination et le suivi après l'événement. Nous nous assurons que chaque événement que nous organisons est personnalisé pour répondre aux besoins et aux préférences de nos clients. Nous travaillons en étroite collaboration avec nos clients pour créer des expériences uniques et sur mesure qui reflètent leur marque et leur message, tout en respectant leur budget et leurs délais."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "iconPath": "/img/icons/plv.png",
+      "name": "PLV",
+      "text": "Nous offrons une gamme complète de services de Publicité sur le Lieu de Vente (PLV) pour aider les entreprises à promouvoir leurs produits...",
+      "paragraph": "Nous offrons une gamme complète de services de Publicité sur le Lieu de Vente (PLV) pour aider les entreprises à promouvoir leurs produits et services directement auprès de leur public cible. Nos services de PLV comprennent la conception et la production de supports publicitaires tels que des affiches, des bannières, des présentoirs, des panneaux et des écrans vidéo. Notre équipe de conception graphique talentueuse peut créer des supports publicitaires à la fois visuellement attrayants et efficaces sur le plan marketing, en utilisant des couleurs, des images et des slogans percutants pour communiquer le message de notre client de manière claire et concise. Nous sommes également en mesure de produire les supports publicitaires en utilisant les matériaux et les technologies les plus avancés pour garantir une qualité supérieure et une durabilité maximale."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-gift",
+      "iconPath": "/img/icons/gifts.png",
+      "name": "Gifts Promotionnels",
+      "text": "Vous avez certainement vu ou même acheté certains des gadgets que nous avons  introduits en Tunisie...",
+      "paragraph": "Vous avez certainement vu ou même acheté certains des gadgets que nous avons  introduits en Tunisie pour des opérations de promotions pour des leaders nationaux en FMCG."
     }
   ],
   "Testimonials": [
@@ -151,6 +167,50 @@
       "job": "Project Manager"
     }
   ],
+  "Procedures": [
+    {
+      "icon": "fa fa-users",
+      "iconPath": "/img/icons/reunion.png",
+      "name": "Réunion de briefing",
+      "text": "Tout démarre avec une réunion de briefing au cours de laquelle, vous allez exposer clairement votre besoin, vos objectifs derrière l’organisation...",
+      "paragraph": "Tout démarre avec une réunion de briefing au cours de laquelle, vous allez exposer clairement votre besoin, vos objectifs derrière l’organisation d’un team building, les préférences en termes de lieux, les dates et le budget prévisionnel."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "iconPath": "/img/icons/proposition.png",
+      "name": "Proposition faite par Guerilla Com",
+      "text": "A la base de la réunion de briefing, nous revenons vers vous avec une proposition détaillée sur notre vision du déroulement de votre team building...",
+      "paragraph": "A la base de la réunion de briefing, nous revenons vers vous avec une proposition détaillée sur notre vision du déroulement de votre team building. Nous vous recommanderons un lieu et des activités ludiques et de réflexion qui vous permettront d’atteindre vos objectifs. Cette proposition sera sujette à une discussion et un échange avec les parties prenantes de votre entreprise (Direction Générale, RH, Marketing, etc)."
+    },
+    {
+      "icon": "fa fa-check",
+      "iconPath": "/img/icons/validation.png",
+      "name": "Validation du concept",
+      "text": "Après quelques ajustements, on aura la version finale du déroulement du team building et son budget...",
+      "paragraph": "Après quelques ajustements, on aura la version finale du déroulement du team building et son budget. Le programme définitif sera validé et les préparatifs peuvent commencer."
+    },
+    {
+      "icon": "fa fa-money",
+      "iconPath": "/img/icons/avance.png",
+      "name": "Bon de commande et avance",
+      "text": "Afin d’officialiser la collaboration, nous vous prions de nous envoyer un bon de commande et préparer une avance...",
+      "paragraph": "Afin d’officialiser la collaboration, nous vous prions de nous envoyer un bon de commande et préparer une avance de 50% afin d’entamer la réservation et différents travaux de productions. Vous voulez organiser un team building et vous n’avez pas les ressources et expertise internes pour le faire ? Laissez faire  les experts.  "
+    },
+    {
+      "icon": "fa fa-suitcase",
+      "iconPath": "/img/icons/execution.png",
+      "name": "Exécution et suivi",
+      "text": "Pendant la phase d'exécution du projet, notre équipe travaille en étroite collaboration pour garantir que chaque tâche est exécutée dans les délais impartis...",
+      "paragraph": "Pendant la phase d'exécution du projet, notre équipe travaille en étroite collaboration pour garantir que chaque tâche est exécutée dans les délais impartis et selon les normes de qualité les plus élevées. Nous surveillons de près l'avancement du projet et ajustons les plans en conséquence, en tenant compte des imprévus qui peuvent survenir en cours de route. Enfin, une fois que le projet est terminé, nous procédons à une évaluation approfondie pour nous assurer que tous les livrables ont été fournis conformément aux attentes de nos clients. Nous encourageons également nos clients à fournir des commentaires sur leur expérience de travail avec nous, ce qui nous permet d'améliorer continuellement nos processus et nos services."
+    },
+    {
+      "icon": "fa fa-flag-checkered",
+      "iconPath": "/img/icons/rapport.png",
+      "name": "Rapport activités",
+      "text": "Après le lancement du projet, nous préparerons un rapport d'activités qui fournira un aperçu détaillé des résultats obtenus...",
+      "paragraph": "Après le lancement du projet, nous préparerons un rapport d'activités qui fournira un aperçu détaillé des résultats obtenus, de l'impact du projet et des éventuelles opportunités d'amélioration. Ce rapport comprendra également une analyse des résultats par rapport aux objectifs initialement définis, ainsi que des recommandations pour améliorer la performance à l'avenir. Nous travaillerons en étroite collaboration avec nos clients pour nous assurer que les rapports d'activités répondent à leurs besoins spécifiques et fournissent une évaluation complète et pertinente de leur projet. Enfin, nous utiliserons les résultats de cette évaluation pour informer notre approche de gestion de projet à l'avenir et pour améliorer constamment nos services pour mieux répondre aux besoins de nos clients."
+    }
+  ],
   "Contact": {
     "address": "Immeuble Mamia Palace/81, Avenue Habib Bourguiba, Ariana",
     "phone": "+216 50 699 800",
@@ -159,6 +219,112 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
+  "Partners": [
+    {
+      "id": "1",
+      "name": "microsoft",
+      "path": "/img/partners/resized/microsoft.png"
+    },
+    {
+      "id": "2",
+      "name": "dell_technologies",
+      "path": "/img/partners/resized/dell.png"
+    },
+
+    {
+      "id": "3",
+      "name": "free_fire",
+      "path": "/img/partners/resized/freefire.png"
+    },
+    {
+      "id": "4",
+      "name": "msi",
+      "path": "/img/partners/resized/msi.png"
+    },
+    {
+      "id": "5",
+      "name": "hewlett",
+      "path": "/img/partners/resized/hewlett.png"
+    },
+    {
+      "id": "6",
+      "name": "landor",
+      "path": "/img/partners/resized/landor.png"
+    },
+    {
+      "id": "7",
+      "name": "lilas",
+      "path": "/img/partners/resized/lilas.png"
+    },
+
+    {
+      "id": "8",
+      "name": "mazraa",
+      "path": "/img/partners/resized/mazraa.png"
+    },
+    {
+      "id": "9",
+      "name": "selja",
+      "path": "/img/partners/resized/selja.png"
+    },
+    {
+      "id": "10",
+      "name": "chahia",
+      "path": "/img/partners/resized/chahia.png"
+    },
+    {
+      "id": "11",
+      "name": "max_chips",
+      "path": "/img/partners/resized/maxchips.png"
+    },
+    {
+      "id": "12",
+      "name": "adwya",
+      "path": "/img/partners/resized/adwya.png"
+    },
+
+    {
+      "id": "13",
+      "name": "omo",
+      "path": "/img/partners/resized/omo.png"
+    },
+    {
+      "id": "14",
+      "name": "delice",
+      "path": "/img/partners/resized/delicedanone.png"
+    },
+    {
+      "id": "15",
+      "name": "bondin",
+      "path": "/img/partners/resized/bondin.png"
+    },
+    {
+      "id": "16",
+      "name": "brandt",
+      "path": "/img/partners/resized/brandt.png"
+    },
+    {
+      "id": "17",
+      "name": "nana",
+      "path": "/img/partners/resized/nana.png"
+    },
+
+    {
+      "id": "18",
+      "name": "shell",
+      "path": "/img/partners/resized/shell.png"
+    },
+    {
+      "id": "19",
+      "name": "ssu",
+      "path": "/img/partners/resized/ssu.png"
+    },
+    {
+      "id": "20",
+      "name": "peaudouce",
+      "path": "/img/partners/resized/peaudouce.png"
+    }
+  ],
   "Features": [
     {
       "icon": "fa fa-comments-o",
