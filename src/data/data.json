@@ -1,8 +1,4 @@
 {
-  "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
-  },
   "About": {
     "paragraph": "La création de Guerrilla Com est l’aboutissement de plus de 15 ans d’expérience de notre fondateur dans le secteur de l’évènementiel en  Tunisie. Nos prestations de prédilection sont les opérations de pousse à la vente, les activations marketing, les animations GMS, le street marketing et les gadgets promotionnels. D’ailleurs, vous avez certainement vu ou même acheté certains des gadgets que nous avons  introduits en Tunisie pour des opérations de promotions pour des leaders nationaux en FMCG (Yaourt, fromage, biscuit, shampoing ...)",
     "Why": [
@@ -23,33 +19,33 @@
       "firstRow": [
         {
           "title": "Microsoft Event (Windows 11)",
-          "largeImage": "/img/header.jpeg",
-          "smallImage": "/img/header.jpeg"
+          "largeImage": "/img/gallery/microsoft_event.jpg",
+          "smallImage": "/img/gallery/resized/microsoft_event.jpg"
+        },
+        {
+          "title": "Microsoft Event (Windows 11)",
+          "largeImage": "/img/gallery/landor_6.jpg",
+          "smallImage": "/img/gallery/resized/landor_6.jpg"
         },
         {
           "title": "Project Title",
-          "largeImage": "/img/portfolio/02-large.jpg",
-          "smallImage": "/img/portfolio/02-small.jpg"
+          "largeImage": "/img/gallery/landor_9.jpg",
+          "smallImage": "/img/gallery/resized/landor_9.jpg"
         },
         {
           "title": "Project Title",
-          "largeImage": "/img/portfolio/03-large.jpg",
-          "smallImage": "/img/portfolio/03-small.jpg"
+          "largeImage": "/img/gallery/gms_brandt.jpg",
+          "smallImage": "/img/gallery/resized/gms_brandt.jpg"
         },
         {
           "title": "Project Title",
-          "largeImage": "/img/portfolio/04-large.jpg",
-          "smallImage": "/img/portfolio/04-small.jpg"
+          "largeImage": "/img/gallery/hpe_event.jpg",
+          "smallImage": "/img/gallery/resized/hpe_event.jpg"
         },
         {
           "title": "Project Title",
-          "largeImage": "/img/portfolio/05-large.jpg",
-          "smallImage": "/img/portfolio/05-small.jpg"
-        },
-        {
-          "title": "Project Title",
-          "largeImage": "/img/portfolio/06-large.jpg",
-          "smallImage": "/img/portfolio/06-small.jpg"
+          "largeImage": "/img/gallery/adwya.jpg",
+          "smallImage": "/img/gallery/resized/adwya.jpg"
         },
         {
           "title": "Project Title",
@@ -111,60 +107,6 @@
       "name": "Gifts Promotionnels",
       "text": "Vous avez certainement vu ou même acheté certains des gadgets que nous avons  introduits en Tunisie...",
       "paragraph": "Vous avez certainement vu ou même acheté certains des gadgets que nous avons  introduits en Tunisie pour des opérations de promotions pour des leaders nationaux en FMCG."
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
     }
   ],
   "Procedures": [
@@ -323,28 +265,6 @@
       "id": "20",
       "name": "peaudouce",
       "path": "/img/partners/resized/peaudouce.png"
-    }
-  ],
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
   ]
 }

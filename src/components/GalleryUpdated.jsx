@@ -1,7 +1,4 @@
-import { Image } from "./image";
 import React from "react";
-import MyGallery from "./MyGallery";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const GalleryUpdated = (props) => {
   return (
@@ -14,61 +11,6 @@ export const GalleryUpdated = (props) => {
             dapibus leonec.
           </p>
         </div>
-        {/* <div className="row">
-          <div className="portfolio-items">
-            {props.data
-              ? props.data.map((d, i) => (
-                  <div
-                    key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-4"
-                  >
-                    <Image
-                      title={d.title}
-                      largeImage={d.largeImage}
-                      smallImage={d.smallImage}
-                    />
-                  </div>
-                ))
-              : "Loading..."}
-          </div>
-        </div> */}
-        {/* <MyGallery
-          galleryID="my-test-gallery"
-          images={[
-            {
-              largeURL:
-                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg",
-              thumbnailURL:
-                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg",
-              width: 1875,
-              height: 2500,
-            },
-            {
-              largeURL:
-                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg",
-              thumbnailURL:
-                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg",
-              width: 1669,
-              height: 2500,
-            },
-            {
-              largeURL:
-                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg",
-              thumbnailURL:
-                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg",
-              width: 2500,
-              height: 1666,
-            },
-            {
-              largeURL:
-                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg",
-              thumbnailURL:
-                "https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg",
-              width: 1875,
-              height: 2500,
-            },
-          ]}
-        /> */}
         <div
           id="carousel-gallery"
           className="carousel slide"
@@ -372,24 +314,6 @@ export const GalleryUpdated = (props) => {
                 </div>
               </div>
             </div>
-            {/* <a
-              class="left carousel-control"
-              href="#carousel-gallery"
-              role="button"
-              data-slide="prev"
-            >
-              <span class="icon-prev" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="right carousel-control"
-              href="#carousel-gallery"
-              role="button"
-              data-slide="next"
-            >
-              <span class="icon-next" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a> */}
           </div>
         </div>
       </div>

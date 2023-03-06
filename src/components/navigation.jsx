@@ -22,8 +22,6 @@ export const Navigation = (props) => {
             href="#page-top"
             style={{ marginBottom: 10 }}
           >
-            {/* React Landing Page */}
-            {/* <img src="/img/GUERILLA_COM.png" alt="logo" height={36} /> */}
             <img
               src="/img/guerrila_logo_blanc.png"
               alt="logo"
@@ -39,11 +37,6 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            {/* <li>
-              <a href="#features" className="page-scroll">
-                Features
-              </a>
-            </li> */}
             <li>
               <a href="#about" className="page-scroll">
                 A Propos
@@ -60,11 +53,6 @@ export const Navigation = (props) => {
                 Projets
               </a>
             </li>
-            {/* <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
-            </li> */}
             <li>
               <a href="#procedures" className="page-scroll">
                 Procédures

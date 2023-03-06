@@ -1,8 +1,4 @@
-import { Image } from "./image";
 import React from "react";
-import MyGallery from "./MyGallery";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 export const Partners = (props) => {
   return (
     <div id="partners" className="text-center">

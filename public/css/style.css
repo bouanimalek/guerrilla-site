@@ -1198,7 +1198,38 @@ iframe:not([about="video"]) {
   width: 100% !important;
   object-fit: contain;
 }
-
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+  .image-logo {
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 25%;
+  }
+  .image-logo a {
+    height: 100%;
+    width: 50% !important;
+    object-fit: contain;
+  }
+}
+@media only screen and (min-width: 540px) and (max-width: 720px) {
+  .image-logo {
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 13%;
+  }
+  .image-logo a {
+    height: 100%;
+    width: 75% !important;
+    object-fit: contain;
+  }
+}
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
