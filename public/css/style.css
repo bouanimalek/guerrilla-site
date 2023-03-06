@@ -182,6 +182,7 @@ hr {
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
+
 #menu a.navbar-brand {
   font-family: "CenturyGothic", sans-serif;
   font-size: 24px;
@@ -352,9 +353,9 @@ header .intro-text {
 }
 /* carousel */
 .bg-img-1 {
-  background-image: url(../img/header/teambuilding_5.jpg);
-  height: 100vh;
-  width: 100vw;
+  background-image: url(../img/header/microsoft_event.jpg);
+  /* height: 100vh;
+  width: 100vw; */
 }
 .bg-img-2 {
   background-image: url(../img/header/fortinet.jpg);
@@ -363,10 +364,13 @@ header .intro-text {
   background-image: url(../img/header/landor_plv.jpg);
 }
 .bg-img-4 {
-  background-image: url(../img/header/cours_musique.jpg);
+  background-image: url(../img/header/teambuilding_5.jpg);
 }
 .bg-img-5 {
   background-image: url(../img/header/teatro_lolla.jpg);
+}
+.bg-img-6 {
+  background-image: url(../img/header/cours_musique.jpg);
 }
 .carousel-image {
   height: 100vh;

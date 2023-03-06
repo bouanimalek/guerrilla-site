@@ -91,15 +91,15 @@ export const GalleryUpdated = (props) => {
                   style={{ alignItems: "center", alignContent: "center" }}
                 >
                   <a
-                    href="/img/gallery/microsoft_event.JPG"
+                    href="/img/gallery/microsoft_event.jpg"
                     className="ubea-card-item image-popup"
                     title="Microsoft Event (Windows 11)"
                   >
                     <figure>
                       <img
-                        src="/img/gallery/resized/microsoft_event.JPG"
+                        src="/img/gallery/resized/microsoft_event.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -114,7 +114,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/landor_6.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -122,15 +122,15 @@ export const GalleryUpdated = (props) => {
 
                 <div className="col-md-4 image-logo">
                   <a
-                    href="/img/gallery/teambuilding_2.jpg"
+                    href="/img/gallery/landor_9.jpg"
                     className="ubea-card-item image-popup"
                     title="Microsoft Event (Windows 11)"
                   >
                     <figure>
                       <img
-                        src="/img/gallery/resized/teambuilding_2.jpg"
+                        src="/img/gallery/resized/landor_9.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -145,7 +145,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/gms_brandt.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -160,7 +160,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/hpe_event.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -175,7 +175,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/adwya.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -194,7 +194,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/dell_event.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -209,7 +209,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/landor_2.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -225,7 +225,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/fortinet.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -240,7 +240,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/landor_5.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -255,7 +255,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/teambuilding_5.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -270,7 +270,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/landor_4.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -289,7 +289,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/isg_event.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -304,7 +304,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/landor_7.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -320,7 +320,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/fac_medecine.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -335,7 +335,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/cours_musique.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -350,7 +350,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/landor_event.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>
@@ -365,7 +365,7 @@ export const GalleryUpdated = (props) => {
                       <img
                         src="/img/gallery/resized/landor_8.jpg"
                         alt="img"
-                        className="img-responsive"
+                        // className="img-responsive"
                       />
                     </figure>
                   </a>

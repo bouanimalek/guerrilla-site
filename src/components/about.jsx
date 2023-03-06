@@ -29,6 +29,7 @@ export const About = (props) => {
               <a
                 href="/videos/about.mp4"
                 data-fancybox
+                data-auto-focus="false"
                 // data-width="70%"
                 // data-height="360"
               >

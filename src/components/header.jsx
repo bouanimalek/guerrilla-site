@@ -64,6 +64,12 @@ export const Header = (props) => {
                       <strong>Team Building</strong>
                     </div> */}
                   </div>
+                  <div className="item carousel-image bg-img-6">
+                    {/* <img src="./img/header.jpeg" alt="..." /> */}
+                    {/* <div className="carousel-caption">
+                      <strong>Team Building</strong>
+                    </div> */}
+                  </div>
                 </div>
 
                 <a
